@@ -1,7 +1,7 @@
 ﻿#include "test.h"
 
 void print(string name, int number, bool expected) {
-    bool actual = is_power_of_two(number);
+    bool actual = is_power_of_two(number); 
 
     cout << name << (expected == actual ? " \002 PASS (green)" : " \001 FAIL (red)")
         << ": with number = " << number << " result is " << (actual ? "true" : "false") << endl;
