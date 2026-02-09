@@ -8,7 +8,7 @@ void print(string name, int n, int m, string expected) {
     cout << "-------------------------------------------------------------------------------" << endl;
 }
 
-void test01() {
+void test01() { 
     int n = 1;
     int m = 5;
     string expected = "5 3 1";
